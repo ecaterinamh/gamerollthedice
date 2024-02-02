@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roll the dice</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link href="index.css" rel="stylesheet" />
+    <link
+      href="./resources/favicon_io/favicon-32x32.png"
+      rel="icon"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="body">
+    <h1>Roll the Dice</h1>
+    <main>
+      <section class="left player--0 active-player winner">
+        <h4 class="player">PLAYER 1</h4>
+
+        <h3 class="score score--0">0</h3>
+        <div class="points-container">
+          <p class="title-points">POINTS</p>
+          <p class="current-score--0">0</p>
+        </div>
+      </section>
+      <section class="middle">
+        <button class="button-new">🔄 NEW GAME</button>
+        <img
+          class="dice hidden"
+          src="./resources/photos/dice-1.png"
+          alt="dice"
+        />
+        <div class="buttons-comand">
+          <button class="button-roll">🎲 ROLL DICE</button>
+          <button class="button-add">📥 ADD POINTS</button>
+        </div>
+      </section>
+      <section class="right player--1">
+        <h4 class="player">PLAYER 2</h4>
+
+        <h3 class="score score--1">0</h3>
+        <div class="points-container">
+          <p class="title-points">POINTS</p>
+          <p class="current-score--1">0</p>
+        </div>
+      </section>
+    </main>
+
+    <div class="message hide-message">
+      <p id="message-content">Game over!</p>
+    </div>
+    <div class="overlay"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
