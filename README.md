@@ -1,12 +1,12 @@
 <a name="readme-top"></a>
 
-# Portfolio App
+# ROLL THE DICE GAME
 
 This game wad made while I was studying the JavaScript Course of Jonas Schmedtmann on Udemy.
 
 ## DEMO
 
-To view the project deployed on Netlify, please click on <a href='https://game-rollthedice.netlify.app/' target='_blank'>Resume</a>.
+To view the project deployed on Netlify, please click on <a href='https://game-rollthedice.netlify.app/' target='_blank'>Roll the dice</a>.
 
 ## Table of contents
 
