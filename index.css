@@ -232,7 +232,7 @@ main {
 @media only screen and (max-width: 905px) {
   main {
     flex-direction: row;
-    width: 50rem;
+    width: 45rem;
     height: 20rem;
   }
 
@@ -245,7 +245,7 @@ main {
 
   .right,
   .left {
-    width: 50%;
+    width: 40%;
     height: 100%;
     border-radius: 0;
     padding: 1.5rem 0;
