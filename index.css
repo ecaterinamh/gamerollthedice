@@ -200,7 +200,7 @@ main {
 
 .message {
   position: absolute;
-  top: 60%;
+  top: 25rem;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 40%;
@@ -298,6 +298,16 @@ main {
     width: 7rem;
     height: 2rem;
   }
+
+  .message {
+    top: 20rem;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .message {
+    top: 20rem;
+  }
 }
 
 @media only screen and (max-width: 560px) {
@@ -369,11 +379,11 @@ main {
   }
 
   .overlay {
-    height: 120%;
+    height: 130%;
   }
 
   .message {
-    top: 50%;
+    top: 20rem;
     width: 12rem;
   }
 
