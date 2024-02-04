@@ -200,7 +200,7 @@ main {
 
 .message {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 40%;
@@ -214,10 +214,11 @@ main {
   align-items: center;
   background-color: rgb(19, 128, 26);
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 .hide-message {
-  display: none;
+  display: block;
 }
 
 #message-content {
@@ -369,5 +370,13 @@ main {
 
   .overlay {
     height: 120%;
+  }
+
+  .message {
+    top: 57%;
+  }
+
+  #message-content {
+    font-size: 2rem;
   }
 }
