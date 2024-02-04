@@ -31,7 +31,7 @@ function init() {
   currentScore1El.textContent = 0;
   score0El.textContent = 0;
   score1El.textContent = 0;
-  // messageEl.classList.add("hide-message");
+  messageEl.classList.add("hide-message");
   player0El.classList.add("active-player");
   player1El.classList.remove("active-player");
 
@@ -79,7 +79,7 @@ btnAdd.addEventListener("click", function () {
     document.querySelector(`.score--${activePlayer}`).textContent =
       scores[activePlayer];
 
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 50) {
       playing = false;
       document
         .querySelector(`.player--${activePlayer}`)
@@ -88,7 +88,7 @@ btnAdd.addEventListener("click", function () {
         .querySelector(`.player--${activePlayer}`)
         .classList.remove("active-player");
       document.querySelector(".overlay").style.display = "block";
-      // messageEl.classList.remove("hide-message");
+      messageEl.classList.remove("hide-message");
 
       document.querySelector("#message-content").textContent =
         messages[activePlayer];

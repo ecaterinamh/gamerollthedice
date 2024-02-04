@@ -218,7 +218,7 @@ main {
 }
 
 .hide-message {
-  display: block;
+  display: none;
 }
 
 #message-content {
@@ -373,7 +373,8 @@ main {
   }
 
   .message {
-    top: 57%;
+    top: 50%;
+    width: 12rem;
   }
 
   #message-content {
