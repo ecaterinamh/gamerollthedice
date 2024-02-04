@@ -284,7 +284,7 @@ main {
   }
 
   .overlay {
-    height: 150%;
+    height: 160%;
   }
 
   .dice {
@@ -299,12 +299,6 @@ main {
     height: 2rem;
   }
 
-  .message {
-    top: 20rem;
-  }
-}
-
-@media only screen and (max-width: 810px) {
   .message {
     top: 20rem;
   }
@@ -379,7 +373,7 @@ main {
   }
 
   .overlay {
-    height: 140%;
+    height: 120%;
   }
 
   .message {
